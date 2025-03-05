@@ -57,3 +57,17 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+## Git Commit Convention
+
+- feat: Tính năng mới
+- fix: Sửa lỗi
+- improve: Cải thiện code
+- refactor: Tái cấu trúc code
+- docs: Thêm tài liệu
+- chore: Thay đổi nhỏ trong quá trình phát triển
+- style: Sửa lỗi kiểu chữ, định dạng, không ảnh hưởng đến logic
+- test: Viết test
+- revert: Revert lại commit trước đó
+- ci: Thay đổi cấu hình
+- CI/CD build: Build tệp tin

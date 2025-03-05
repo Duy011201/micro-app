@@ -28,6 +28,10 @@ yarn-error.log
 !.vscode/extensions.json
 .history/*
 
+# WebStorm
+.idea/*
+*.iml
+
 # Miscellaneous
 /.angular/cache
 .sass-cache/
