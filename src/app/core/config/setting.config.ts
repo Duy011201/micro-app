@@ -7,6 +7,11 @@ export const SETTING = {
     RELATED_NOT_FOUND: '**',
     RELATED_LOGIN: 'login',
     RELATED_HOME: 'home',
+    RELATED_DOCS: 'docs',
     RELATED_ROOT: '',
   },
+  MSG: {
+    ERROR: 'Có lỗi xảy ra!',
+    SUCCESS: 'Thành công!',
+  }
 };

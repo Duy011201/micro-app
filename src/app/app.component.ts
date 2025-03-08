@@ -22,7 +22,7 @@ export class AppComponent implements OnInit {
   /*
    * Get value from router
    */
-  constructor(private router: Router, private primeng: PrimeNG) {
+  constructor(private router: Router, private primeNG: PrimeNG) {
     this.router.events
       .pipe(
         filter((event) => event instanceof ActivationEnd),
@@ -39,6 +39,6 @@ export class AppComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.primeng.ripple.set(true);
+    this.primeNG.ripple.set(true);
   }
 }
